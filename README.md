@@ -2,7 +2,7 @@
   news-site-aws-api-gateway
 </h1>
 <p align="center">
-AWS api gateway to serve data scrapped for react news website.📡💻🖱
+AWS api gateway to serve data scrapped for <a href="https://github.com/rykumar13/react-news-website">react news website</a>
 </p>
 <h2>Purpose</h2>
 <p>
