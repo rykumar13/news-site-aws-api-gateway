@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "eu-west-2",
+        "profile_name": "default",
+        "project_name": "zappa-app",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-dxq64seqz",
+        "binary_support": true
+    }
+}
