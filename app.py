@@ -40,10 +40,10 @@ def create_connection():
     connection = None
     try:
         connection = mysql.connector.connect(
-            host="mysql2021.c1ro15dre8ia.eu-west-2.rds.amazonaws.com",
-            user="mysql2021",
-            passwd="mysql2021",
-            database="PROD"
+            host=creds.db_host,
+            user=creds.db_user,
+            passwd=creds.password,
+            database=creds.db_database
         )
         print("Connection to MySQL DB successful")
     except Error as e:
